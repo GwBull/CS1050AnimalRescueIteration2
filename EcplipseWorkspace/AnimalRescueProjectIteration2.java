@@ -108,6 +108,8 @@ public class AnimalRescueProjectIteration2
 		private double AnimalCount;
 		
 		private double MaxAnimals;
+		
+		private Animal[]MaxAnimals);
 	
 	
 		
