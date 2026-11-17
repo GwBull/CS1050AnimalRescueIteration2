@@ -105,7 +105,9 @@ public class AnimalRescueProjectIteration2
 	
 		private String RescueName;
 		
+		private double AnimalCount;
 		
+		private double MaxAnimals;
 	
 	
 		
