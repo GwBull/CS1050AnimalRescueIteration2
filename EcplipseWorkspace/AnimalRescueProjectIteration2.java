@@ -99,6 +99,7 @@ public class AnimalRescueProjectIteration2
 
 	// end of the animal class 
 	
+	//start of the rescue class
 	class Rescue 
 	
 	{
@@ -109,8 +110,8 @@ public class AnimalRescueProjectIteration2
 		
 		private double MaxAnimals;
 		
-		private Animal[]MaxAnimals);
-	
+		private Animal[] Animals;
+		
 	
 		
 	}
