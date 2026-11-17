@@ -124,7 +124,7 @@ public class AnimalRescueProjectIteration2
 			
 			this.AnimalCount = AnimalCount;
 			
-			this.Animals = new Animal;
+			this.Animals = new Animal[(int) AnimalCount];
 			
 			
 		}
