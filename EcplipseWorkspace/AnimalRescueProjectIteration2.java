@@ -116,7 +116,7 @@ public class AnimalRescueProjectIteration2
 		 * an array that hold animals using the animal data type and the length of the array is based on the current animals 
 		 */
 		
-		public  Rescue(String RescueName, String Species, double Weight)
+		public  Rescue(String RescueName, String Species, Animal[]Animals)
 		
 		{
 		
@@ -124,7 +124,7 @@ public class AnimalRescueProjectIteration2
 			
 			this.AnimalCount = AnimalCount;
 			
-			this.Weight = Weight;
+			this.Animals = new Animal;
 			
 			
 		}
