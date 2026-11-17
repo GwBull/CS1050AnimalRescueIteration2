@@ -44,8 +44,11 @@ public class AnimalRescueProjectIteration2
 		public  Animal(String Name, String Species, double Weight, Double dailyFoodAmount)
 		
 		{
-			
-			
+		
+			this.Name = Name;
+			this.Species = Species;
+			this.Weight = Weight;
+			this.dailyFoodAmount = dailyFoodAmount;
 		
 		}
 	
