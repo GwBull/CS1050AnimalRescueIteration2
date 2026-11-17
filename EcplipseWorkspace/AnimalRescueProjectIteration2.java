@@ -8,6 +8,12 @@ import java.util.Scanner;
 import java.util.Scanner;
 // import scanner for testing without using a file
 
+/*
+ * Name: [George Bull]
+ * Class: CS1050
+ * Description: Animal Rescue Center Analysis - Iteration 02
+ */
+
 public class AnimalRescueProjectIteration2
 {
 
