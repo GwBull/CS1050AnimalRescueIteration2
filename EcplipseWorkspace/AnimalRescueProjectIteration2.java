@@ -27,7 +27,7 @@ public class AnimalRescueProjectIteration2
 	// end of main 
 
 	class Animal
-
+// create the animal class which make an animal data type 
 	{
 	
 		private String Name;
