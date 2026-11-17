@@ -75,7 +75,13 @@ public class AnimalRescueProjectIteration2
 			
 			return this.Weight;
 		}
-		// end of the get name method 
+		// end of the get Weight method 
+		
+		public String getSepcies(){
+			
+			return this.Species;
+		}
+		// end of the get Species method 
 	
 	
 	}
