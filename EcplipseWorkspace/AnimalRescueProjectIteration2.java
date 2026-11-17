@@ -122,11 +122,10 @@ public class AnimalRescueProjectIteration2
 		
 			this.RescueName = RescueName;
 			
-			this.Species = Species;
+			this.AnimalCount = AnimalCount;
 			
 			this.Weight = Weight;
 			
-			this.dailyFoodAmount = dailyFoodAmount;
 			
 		}
 	
