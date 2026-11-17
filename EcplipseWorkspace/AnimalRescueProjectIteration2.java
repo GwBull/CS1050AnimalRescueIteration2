@@ -26,5 +26,20 @@ public class AnimalRescueProjectIteration2
 	}
 	// end of main 
 
+	class Animal
+
+	{
+	
+		private String Name;
+		
+		private String Species;
+		
+		private double Weight;
+
+		private double dailyFoodAmount;
+
+}
+	
+	
 }
 // end of the file 
