@@ -82,6 +82,12 @@ public class AnimalRescueProjectIteration2
 			return this.Species;
 		}
 		// end of the get Species method 
+		
+		public double getdailyFoodAmount(){
+			
+			return this.dailyFoodAmount;
+		}
+		// end of the get name method 
 	
 	
 	}
