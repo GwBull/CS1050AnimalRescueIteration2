@@ -37,8 +37,7 @@ public class AnimalRescueProjectIteration2
 		private double Weight;
 
 		private double dailyFoodAmount;
-
-}
+	}
 	
 	
 }
