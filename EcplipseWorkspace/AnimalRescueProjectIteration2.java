@@ -38,7 +38,17 @@ public class AnimalRescueProjectIteration2
 		private double Weight;
 
 		private double dailyFoodAmount;
-	}
+		
+		//create all the attributes of a an animal, they have a name a species a weight and a daily food amount
+		
+		public  Animal(String Name, String Species, double Weight, Double dailyFoodAmount)
+		
+		{
+			
+			
+		
+		}
+	
 	
 	
 }
