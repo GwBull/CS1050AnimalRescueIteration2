@@ -46,8 +46,11 @@ public class AnimalRescueProjectIteration2
 		{
 		
 			this.Name = Name;
+			
 			this.Species = Species;
+			
 			this.Weight = Weight;
+			
 			this.dailyFoodAmount = dailyFoodAmount;
 			
 			/*
@@ -101,13 +104,12 @@ public class AnimalRescueProjectIteration2
 	{
 	
 		private String RescueName;
+		
+		
 	
 	
-		
-		
-		
 		
 	}
-	
+	// end of the rescue class 
 }
 // end of the file 
