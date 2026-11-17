@@ -89,8 +89,25 @@ public class AnimalRescueProjectIteration2
 		}
 		// end of the get name method 
 	
+		
 	
 	}
+	
+
 	// end of the animal class 
+	
+	class Rescue 
+	
+	{
+	
+		private String RescueName;
+	
+	
+		
+		
+		
+		
+	}
+	
 }
 // end of the file 
