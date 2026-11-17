@@ -92,7 +92,6 @@ public class AnimalRescueProjectIteration2
 		}
 		// end of the get name method 
 	
-		
 	
 	}
 	
@@ -107,8 +106,6 @@ public class AnimalRescueProjectIteration2
 		private String RescueName;
 		
 		private double AnimalCount;
-		
-		private double MaxAnimals;
 		
 		private Animal[] Animals;
 		
