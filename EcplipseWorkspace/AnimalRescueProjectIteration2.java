@@ -64,8 +64,12 @@ public class AnimalRescueProjectIteration2
 			 * and eats 7.0 units of food per day.
 			 */
 		}
-	
 		
+		public String getName(){
+			
+			return this.Name;
+		}
+	
 	
 	}
 	// end of the animal class 
