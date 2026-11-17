@@ -69,6 +69,13 @@ public class AnimalRescueProjectIteration2
 			
 			return this.Name;
 		}
+		// end of the get name method 
+		
+		public double getWeight(){
+			
+			return this.Weight;
+		}
+		// end of the get name method 
 	
 	
 	}
