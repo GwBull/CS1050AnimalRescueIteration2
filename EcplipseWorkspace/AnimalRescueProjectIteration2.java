@@ -113,8 +113,22 @@ public class AnimalRescueProjectIteration2
 		 * Create a new class called rescue thats a data type called Rescue
 		 * the attributes of this class are the name of the rescue 
 		 * the current amount of animals that will be used for the size of the array 
-		 * 
+		 * an array that hold animals using the animal data type and the length of the array is based on the current animals 
 		 */
+		
+		public  Rescue(String RescueName, String Species, double Weight)
+		
+		{
+		
+			this.RescueName = RescueName;
+			
+			this.Species = Species;
+			
+			this.Weight = Weight;
+			
+			this.dailyFoodAmount = dailyFoodAmount;
+			
+		}
 	
 		
 	}
