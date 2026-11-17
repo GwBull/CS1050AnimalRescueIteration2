@@ -5,6 +5,8 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 //imports all needed to read and write from a file 
 // this will be used later
+import java.util.Scanner;
+// import scanner for testing without using a file
 
 public class AnimalRescueProjectIteration2
 {
