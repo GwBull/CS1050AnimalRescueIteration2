@@ -109,6 +109,12 @@ public class AnimalRescueProjectIteration2
 		
 		private Animal[] Animals;
 		
+		/*
+		 * Create a new class called rescue thats a data type called Rescue
+		 * the attributes of this class are the name of the rescue 
+		 * the current amount of animals that will be used for the size of the array 
+		 * 
+		 */
 	
 		
 	}
