@@ -20,7 +20,7 @@ public class AnimalRescueProjectIteration2
 	// start of main 
 	public static void main(String[] args)
 	{
-		
+
 		System.out.println("**********************************************");
 		System.out.println("Aniumal Rescue Center Analysis - Iteration 02");
 		System.out.println("**********************************************");
@@ -125,6 +125,16 @@ public class AnimalRescueProjectIteration2
 			}
 
 			return weightcategory;
+		}
+
+		public void displayAnimalAnylasis;()
+		{
+			System.out.println("Animal Name: " + this.Name);
+			System.out.println("Species: " + this.Species);
+			System.out.println("Weight: " + this.Weight);
+			System.out.println("Daily Food Amount: " + this.dailyFoodAmount);
+			System.out.println("Weekly Food Amount: " + this.calculateweeklyFoodAmount());
+			System.out.println("Weight Category: " + this.determineWeightCategory());
 		}
 
 	
