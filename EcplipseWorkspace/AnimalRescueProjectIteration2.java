@@ -21,6 +21,10 @@ public class AnimalRescueProjectIteration2
 	public static void main(String[] args)
 	{
 		System.out.println("THIS IS A TEST");
+
+		System.out.println("**********************************************");
+		System.out.println("Aniumal Rescue Center Analysis - Iteration 02");
+		System.out.println("**********************************************");
 		
 
 	}
