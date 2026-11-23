@@ -128,6 +128,16 @@ public class AnimalRescueProjectIteration2
 			
 			
 		}
+
+		public string getRescueName(){
+			
+			return this.RescueName;
+		}
+
+		public double getAnimalCount(){
+			
+			return this.AnimalCount;
+		}
 	
 		
 	}
