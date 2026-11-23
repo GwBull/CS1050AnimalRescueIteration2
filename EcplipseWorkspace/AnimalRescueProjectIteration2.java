@@ -130,11 +130,17 @@ public class AnimalRescueProjectIteration2
 		public void displayAnimalAnylasis;()
 		{
 			System.out.println("Animal Name: " + this.Name);
+			// displays the name of the animal
 			System.out.println("Species: " + this.Species);
+			// displays the species of the animal
 			System.out.println("Weight: " + this.Weight);
+			// displays the weight of the animal
 			System.out.println("Daily Food Amount: " + this.dailyFoodAmount);
+			// displays the daily food amount of the animal
 			System.out.println("Weekly Food Amount: " + this.calculateweeklyFoodAmount());
+			// displays the weekly food amount of the animal
 			System.out.println("Weight Category: " + this.determineWeightCategory());
+			// displays the weight category of the animal
 		}
 
 	
