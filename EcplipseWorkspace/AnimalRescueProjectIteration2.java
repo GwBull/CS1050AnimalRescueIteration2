@@ -128,7 +128,7 @@ public class AnimalRescueProjectIteration2
 			
 			
 		}
-		// end of the constructor for the rescue class
+		//end of the constructor for the rescue class
 		//this will create a new rescue object and set the starting values for the rescue name, animal count and the array of animals in the rescue
 
 		public String getRescueName(){
@@ -152,5 +152,20 @@ public class AnimalRescueProjectIteration2
 		
 	}
 	// end of the rescue class 
+
+	public getweeklyfoodamount(Animal[] Animals){
+		
+		double weeklyfoodamount = 0;
+		
+		for(int i = 0; i < Animals.length; i++){
+			
+			weeklyfoodamount += Animals[i].getdailyFoodAmount() * 7;
+			
+		}
+		
+		return weeklyfoodamount;
+		
+	}
+
 }
 // end of the file 
