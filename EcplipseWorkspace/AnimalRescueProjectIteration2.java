@@ -109,7 +109,7 @@ public class AnimalRescueProjectIteration2
 		public String determineWeightCategory()
 		{
 			String weightcategory = "";
-
+			//creates the string weight catergoppy and sets it to an empty string
 			if (this.Weight < 10)
 			{
 				weightcategory = "Small";
@@ -125,6 +125,7 @@ public class AnimalRescueProjectIteration2
 
 			return weightcategory;
 		}
+
 	
 	
 	}
