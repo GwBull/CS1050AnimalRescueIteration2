@@ -129,15 +129,23 @@ public class AnimalRescueProjectIteration2
 			
 		}
 
-		public string getRescueName(){
+		public String getRescueName(){
 			
 			return this.RescueName;
 		}
+		// create get rescue name method to return the name of the rescue
 
 		public double getAnimalCount(){
 			
 			return this.AnimalCount;
 		}
+		// create get animal count method to return the current amount of animals in the rescue
+
+		public Animal[] getAnimals(){
+			
+			return this.Animals;
+		}
+		// create get animals method to return the array of animals in the rescue
 	
 		
 	}
