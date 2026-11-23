@@ -128,6 +128,8 @@ public class AnimalRescueProjectIteration2
 			
 			
 		}
+		// end of the constructor for the rescue class
+		//this will create a new rescue object and set the starting values for the rescue name, animal count and the array of animals in the rescue
 
 		public String getRescueName(){
 			
