@@ -27,8 +27,8 @@ public class AnimalRescueProjectIteration2
 		System.out.println("**********************************************");
 		System.out.println("Reads Animal information from a file");
 		System.out.println("Calculates average dailyand total weekly food");
+		System.out.println("writes rescue infromation and anylsis to a file");
 		
-
 	}
 	// end of main 
 	
