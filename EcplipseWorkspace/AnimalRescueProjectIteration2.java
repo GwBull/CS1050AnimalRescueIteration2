@@ -97,14 +97,30 @@ public class AnimalRescueProjectIteration2
 		// end of the get name method 
 
 		//START CALUALTE WEWEEKLY FOOD AMOUNT METHOD
-		public void calculateweeklyFoodAmount()
+		public double calculateweeklyFoodAmount()
 		{
-			
 			double weeklyFoodAmount = this.dailyFoodAmount * 7;
+
+			return weeklyFoodAmount;
 			
-			System.out.println("The weekly food amount for " + this.Name + " is " + weeklyFoodAmount);
 		}
 		//END CALCULATE WEEKLY FOOD AMOUNT METHOD
+
+		public string determineWeightCategory()
+		{
+			if (this.Weight < 10)
+			{
+				return "Small";
+			}
+			else if (this.Weight >= 10 && this.Weight < 50)
+			{
+				return "Medium";
+			}
+			else
+			{
+				return "Large";
+			}
+		}
 	
 	
 	}
