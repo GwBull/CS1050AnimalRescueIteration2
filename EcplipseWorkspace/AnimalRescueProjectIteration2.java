@@ -95,7 +95,6 @@ public class AnimalRescueProjectIteration2
 	
 	}
 	
-
 	// end of the animal class 
 	
 	//start of the rescue class
@@ -153,19 +152,22 @@ public class AnimalRescueProjectIteration2
 	}
 	// end of the rescue class 
 
-	public getweeklyfoodamount(Animal[] Animals){
+	//start the user story methods
+	//start the get weekly food amount method
+	public double getweeklyfoodamount(Animal[] Animals){
 		
 		double weeklyfoodamount = 0;
 		
 		for(int i = 0; i < Animals.length; i++){
 			
-			weeklyfoodamount += Animals[i].getdailyFoodAmount() * 7;
+			weeklyfoodamount = Animals[i].getdailyFoodAmount() * 7;
 			
 		}
 		
 		return weeklyfoodamount;
 		
 	}
+	// end of the get weekly food amount method
 
 }
 // end of the file 
