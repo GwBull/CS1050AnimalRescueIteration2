@@ -106,20 +106,24 @@ public class AnimalRescueProjectIteration2
 		}
 		//END CALCULATE WEEKLY FOOD AMOUNT METHOD
 
-		public string determineWeightCategory()
+		public String determineWeightCategory()
 		{
+			String weightcategory = "";
+
 			if (this.Weight < 10)
 			{
-				return "Small";
+				weightcategory = "Small";
 			}
 			else if (this.Weight >= 10 && this.Weight < 50)
 			{
-				return "Medium";
+				weightcategory = "Medium";
 			}
 			else
 			{
-				return "Large";
+				weightcategory = "Large";
 			}
+
+			return weightcategory;
 		}
 	
 	
