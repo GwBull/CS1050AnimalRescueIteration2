@@ -199,6 +199,35 @@ public class AnimalRescueProjectIteration2
 			return this.Animals;
 		}
 		// create get animals method to return the array of animals in the rescue
+
+		public void addAnimal()
+		{
+			if animalcount < animals.length
+			{
+				System.out.println("Animal added to the rescue");
+			}
+			else
+			{
+				System.out.println("Resizing array and adding animal to the rescue");
+			}
+
+
+		}
+
+		/** 
+		 * displays the recues infromation 
+		 **/
+
+		public void displayRescueAnylasis()
+		{
+			System.out.println("Rescue Name: " + this.RescueName);
+			// displays the name of the rescue
+			System.out.println("Animal Count: " + this.AnimalCount);
+			// displays the current amount of animals in the rescue
+			
+		}
+
+		 
 	
 		
 	}
