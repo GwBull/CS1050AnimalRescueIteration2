@@ -106,7 +106,7 @@ public class AnimalRescueProjectIteration2
 		// end of the get name method 
 
 		//START CALUALTE WEWEEKLY FOOD AMOUNT METHOD
-		public double calculateweeklyFood()
+		public double calculateWeeklyFood()
 		{
 			double weeklyFoodAmount = this.dailyFoodAmount * 7;
 
@@ -145,7 +145,7 @@ public class AnimalRescueProjectIteration2
 			// displays the weight of the animal
 			System.out.println("Daily Food Amount: " + this.dailyFoodAmount);
 			// displays the daily food amount of the animal
-			System.out.println("Weekly Food Amount: " + this.calculateweeklyFoodAmount());
+			System.out.println("Weekly Food Amount: " + this.calculateWeeklyFood());
 			// displays the weekly food amount of the animal
 			System.out.println("Weight Category: " + this.determineWeightCategory());
 			// displays the weight category of the animal
@@ -235,16 +235,19 @@ public class AnimalRescueProjectIteration2
 			// displays the current amount of animals in the rescue
 			
 		}
-
+		//end of the daily rescue method 
+		//start the calculate total weekly food method
 		public double calculateTotalWeeklyFood()
 		{
 			double totalWeeklyFood = 0.0;
-			
+			// creates a variable to hold the total weekly food amount for all animals in the rescue
 			for (int i = 0; i < this.AnimalCount; i++)
 			{
-				totalWeeklyFood += this.Animals[i].calculateweeklyFood();
+				totalWeeklyFood = totalWeeklyFood + Animals[i].calculateweeklyFood();
 			}
+			// use a for loop to iterate through the array of animals in the rescue and add the weekly food amount for each animal to the total weekly food amount
 			return totalWeeklyFood;
+			//return the total weekly food amount for all animals in the rescue
 		}
 
 		
