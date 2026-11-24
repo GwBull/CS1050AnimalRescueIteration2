@@ -21,6 +21,14 @@ public class AnimalRescueProjectIteration2
 	public static void main(String[] args)
 	{
 
+		Animal luna  = new Animal("Luna", "Dog", 20.0, 1.50);
+		Animal pip   = new Animal("Pip", "Bird", 0.8, 0.10);
+		Animal rex   = new Animal("Rex", "Dog", 100.0, 3.00);
+		Animal bella = new Animal("Bella", "Cat", 8.0, 0.60);
+
+		// create an dhardcode 4 animlas to test the class and the program
+
+
 		System.out.println("**********************************************");
 		System.out.println("Aniumal Rescue Center Analysis - Iteration 02");
 		System.out.println("**********************************************");
@@ -127,7 +135,7 @@ public class AnimalRescueProjectIteration2
 			return weightcategory;
 		}
 
-		public void displayAnimalAnylasis;()
+		public void displayAnimalAnylasis()
 		{
 			System.out.println("Animal Name: " + this.Name);
 			// displays the name of the animal
