@@ -202,7 +202,7 @@ public class AnimalRescueProjectIteration2
 
 		public void addAnimal()
 		{
-			if animalcount < animals.length
+			if (this.AnimalCount < this.Animals.length)
 			{
 				System.out.println("Animal added to the rescue");
 			}
@@ -213,6 +213,7 @@ public class AnimalRescueProjectIteration2
 
 
 		}
+		// end of the add animal method, this verifys that theere is room within the array or shrelter
 
 		/** 
 		 * displays the recues infromation 
