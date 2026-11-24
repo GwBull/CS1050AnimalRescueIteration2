@@ -106,7 +106,7 @@ public class AnimalRescueProjectIteration2
 		// end of the get name method 
 
 		//START CALUALTE WEWEEKLY FOOD AMOUNT METHOD
-		public double calculateweeklyFoodAmount()
+		public double calculateweeklyFood()
 		{
 			double weeklyFoodAmount = this.dailyFoodAmount * 7;
 
@@ -150,7 +150,6 @@ public class AnimalRescueProjectIteration2
 			System.out.println("Weight Category: " + this.determineWeightCategory());
 			// displays the weight category of the animal
 		}
-
 	
 	
 	}
@@ -163,11 +162,12 @@ public class AnimalRescueProjectIteration2
 	{
 	
 		private String RescueName;
-		
+		// create the attribute oof a rescue which is the name of the rescue
 		private double AnimalCount;
-		
+		// create the attribute of a rescue which is the current amount of animals in the rescue
 		private Animal[] Animals;
-		
+		// create the attribute of a rescue which is an array of animals in the rescue
+
 		/*
 		 * Create a new class called rescue thats a data type called Rescue
 		 * the attributes of this class are the name of the rescue 
