@@ -236,8 +236,19 @@ public class AnimalRescueProjectIteration2
 			
 		}
 
-		 
-	
+		public double calculateTotalWeeklyFood()
+		{
+			double totalWeeklyFood = 0.0;
+			
+			for (int i = 0; i < this.AnimalCount; i++)
+			{
+				totalWeeklyFood += this.Animals[i].calculateweeklyFood();
+			}
+			return totalWeeklyFood;
+		}
+
+		
+
 		
 	}
 	// end of the rescue class 
