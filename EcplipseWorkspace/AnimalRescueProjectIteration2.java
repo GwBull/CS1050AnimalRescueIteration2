@@ -22,6 +22,10 @@ public class AnimalRescueProjectIteration2
 	{
 
 	RescueCenter rescue1 = new RescueCenter("Second Chance Rescue", 3);
+	
+	// creates a new rescxsue cenetr object with a name and max animals as 3
+	// we dont need the animal count because it will be set to 0 in the constructor
+	// and we dont need the animal array because it will be created in the constructor with a length of 3
 
 	// creates a new rescue hardcoded to test. 
 
