@@ -58,8 +58,8 @@ public class AnimalRescueProjectIteration2
 	// call the display prgram method to display the program information
 
 	}
+	// end of main code before starting the methods
 	
-
 	public static void displayProgramInformation()
 		{
 		System.out.println("**********************************************");
