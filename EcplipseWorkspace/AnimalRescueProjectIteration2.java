@@ -196,7 +196,7 @@ public class AnimalRescueProjectIteration2
 			return this.RescueName;
 		}
 		// create get rescue name method to return the name of the rescue
-s
+		
 		public double getAnimalCount(){
 			
 			return this.AnimalCount;
