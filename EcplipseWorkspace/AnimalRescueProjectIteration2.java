@@ -196,7 +196,7 @@ public class AnimalRescueProjectIteration2
 			return this.RescueName;
 		}
 		// create get rescue name method to return the name of the rescue
-
+s
 		public double getAnimalCount(){
 			
 			return this.AnimalCount;
@@ -215,6 +215,8 @@ public class AnimalRescueProjectIteration2
 			if (AnimalCount < Animals.length)
 			{
 				System.out.println("Animal added to the rescue");
+
+				System.out.println("Animal Count: " + this.AnimalCount);
 				
 				this.AnimalCount++;
 				// updates the animal count for the rescue by using a postfix to update it by 1
