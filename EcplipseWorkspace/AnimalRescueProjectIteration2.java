@@ -180,8 +180,8 @@ public class AnimalRescueProjectIteration2
 		
 			this.RescueName = RescueName;
 			
-			this.AnimalCount = AnimalCount;
-			
+			this.AnimalCount = 0;
+			// starts the animal count at 0 because there are no animals in the rescue yet
 			this.Animals = new Animal[(int) AnimalCount];
 			// creates an array that stores animals wiht the lenght set to the animal amount
 
@@ -215,7 +215,9 @@ public class AnimalRescueProjectIteration2
 			if (AnimalCount < Animals.length)
 			{
 				System.out.println("Animal added to the rescue");
-				AnimalCount++;
+				
+				this.AnimalCount++;
+				// updates the animal count for the rescue by using a postfix to update it by 1
 			}
 			else
 			{
