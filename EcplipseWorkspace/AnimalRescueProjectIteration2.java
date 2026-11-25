@@ -235,7 +235,9 @@ class Animal
 		}
 		// create get animals method to return the array of animals in the rescue
 
-		public void addAnimal(int AnimalCount, Animal[] Animals, Animal animal)
+		public void addAnimal( Animal animal)
+		// we only need to pass through the animal object and not the array of animlas
+		//becasue they are in the recuse class and we can access them through the class
 		// create add animals method pass thorugh the animal count and animals array
 		{
 			if (AnimalCount < Animals.length)
