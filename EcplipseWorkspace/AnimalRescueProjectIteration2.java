@@ -49,6 +49,7 @@ public class AnimalRescueProjectIteration2
 	rescue1.addAnimal(allAnimals[3]);
 	//adds bela to the array wihtin the rescue object 
 	//theses are all fo testing purposes and will be replaced with the read file method later
+	// this says within rescue 1 add and animal using that method form all animals array position 0,1,2,3
     
 	// adds all these animals into the array
 
