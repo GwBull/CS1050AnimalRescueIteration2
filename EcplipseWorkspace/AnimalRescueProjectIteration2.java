@@ -174,7 +174,7 @@ public class AnimalRescueProjectIteration2
 		 * an array that hold animals using the animal data type and the length of the array is based on the current animals 
 		 */
 		
-		public  Rescue(String RescueName, double AnimalCount, Animal[]Animals)
+		public Rescue(String RescueName, double AnimalCount, Animal[]Animals)
 		
 		{
 		
@@ -209,7 +209,8 @@ public class AnimalRescueProjectIteration2
 		}
 		// create get animals method to return the array of animals in the rescue
 
-		public void addAnimal()
+		public void addAnimal(int AnimalCount, Animal[] Animals)
+		// creat eadd animal smethod pass thorugh the animal count and animals array
 		{
 			if (AnimalCount < Animals.length)
 			{
