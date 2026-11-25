@@ -177,7 +177,7 @@ public class AnimalRescueProjectIteration2
 		 * an array that hold animals using the animal data type and the length of the array is based on the current animals 
 		 */
 		
-		public  Rescue(String RescueName, String Species, Animal[]Animals)
+		public  Rescue(String RescueName, double AnimalCount, Animal[]Animals)
 		
 		{
 		
