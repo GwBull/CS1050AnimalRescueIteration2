@@ -212,13 +212,13 @@ class Animal
 		}
 		// create get rescue name method to return the name of the rescue
 
-		public double getAnimalCount(){
+		public int getAnimalCount(){
 			
 			return this.AnimalCount;
 		}
 		// create get animal count method to return the current amount of animals in the rescue
 
-		public Animal[] getAnimals(){s
+		public Animal[] getAnimals(){
 			
 			return this.Animals;
 		}
