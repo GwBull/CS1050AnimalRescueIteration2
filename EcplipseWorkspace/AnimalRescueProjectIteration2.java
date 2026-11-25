@@ -183,6 +183,8 @@ public class AnimalRescueProjectIteration2
 			this.AnimalCount = AnimalCount;
 			
 			this.Animals = new Animal[(int) AnimalCount];
+			// creates an array that stores animals wiht the lenght set to the animal amount
+
 			
 			
 		}
