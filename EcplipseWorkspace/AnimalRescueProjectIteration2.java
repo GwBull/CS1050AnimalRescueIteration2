@@ -241,11 +241,12 @@ public class AnimalRescueProjectIteration2
 		{
 			double totalWeeklyFood = 0.0;
 			// creates a variable to hold the total weekly food amount for all animals in the rescue
-			for (int i = 0; i < this.AnimalCount; i++)
+			for (int i = 0; i < AnimalCount; i++)
 			{
 				totalWeeklyFood = totalWeeklyFood + Animals[i].calculateWeeklyFood();
 			}
 			// use a for loop to iterate through the array of animals in the rescue and add the weekly food amount for each animal to the total weekly food amount
+			// use the array of animasl and the .calculateWeeklyFood() method to get the weekly food amount for each animal in the array
 			return totalWeeklyFood;
 			//return the total weekly food amount for all animals in the rescue
 		}
@@ -254,7 +255,7 @@ public class AnimalRescueProjectIteration2
 		{
 			double totalDailyFood = 0.0;
 			// creates a variable to hold the total daily food amount for all animals in the rescue
-			for (int i = 0; i < this.AnimalCount; i++)
+			for (int i = 0; i < AnimalCount; i++)
 			{
 				totalDailyFood = totalDailyFood + Animals[i].getdailyFoodAmount();
 			}
@@ -263,6 +264,20 @@ public class AnimalRescueProjectIteration2
 			// calculate the average daily food amount for all animals in the rescue by dividing the total daily food amount by the current amount of animals in the rescue
 			return averageDailyFood;
 			//return the average daily food amount for all animals in the rescue
+		}
+
+		public void displayAnimalsAtOrAboveAverageDailyFood(AverageDailyFood)
+		{
+			double averageDailyFood = calculateAverageDailyFood();
+			// get the average daily food amount for all animals in the rescue
+			for (int i = 0; i < AnimalCount; i++)
+			{
+				if (Animals[i].getdailyFoodAmount() >= averageDailyFood)
+				{
+					System.out.println(Animals[i].getName() + " - " + Animals[i].getdailyFoodAmount());
+				}
+			}
+			// use a for loop to iterate through the array of animals in the rescue and display the name and daily food amount for each animal that is at or above the average daily food amount
 		}
 
 		
