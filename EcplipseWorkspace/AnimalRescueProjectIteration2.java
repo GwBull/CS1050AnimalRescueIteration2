@@ -228,6 +228,7 @@ class Animal
 		// create add animals method pass thorugh the animal count and animals array
 		{
 			if (AnimalCount < Animals.length)
+			// check if the current amount of animals is less than the length of the array meanign we have room
 			{
 				System.out.println("Animal added to the rescue");
 
