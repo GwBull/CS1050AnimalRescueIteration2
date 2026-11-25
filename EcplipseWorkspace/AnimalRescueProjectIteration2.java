@@ -77,7 +77,7 @@ public class AnimalRescueProjectIteration2
 			 * this.Name = Name;   // toms Name becomes "tom"
 			 * 
 			 * Example:
-			 *   Animal tom = new Animal("tom", "tiger", 197.5, 7.0);
+			 *   Animal tom = new Animal(George Lion, 200.0 lbs, 8.0 Food);
 			 * This makes an Animal named tom, a tiger that weighs 197.5
 			 * and eats 7.0 units of food per day.
 			 */
@@ -215,10 +215,11 @@ public class AnimalRescueProjectIteration2
 			if (AnimalCount < Animals.length)
 			{
 				System.out.println("Animal added to the rescue");
+				AnimalCount++;
 			}
 			else
 			{
-				System.out.println("Resizing array and adding animal to the rescue");
+				System.out.println("Unable to add animal to the rescue, the rescue is full");
 			}
 
 
