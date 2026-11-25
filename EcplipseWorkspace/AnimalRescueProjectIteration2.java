@@ -37,6 +37,8 @@ public class AnimalRescueProjectIteration2
 		System.out.println("writes rescue infromation and anylsis to a file");
 		
 	}
+
+}
 	// end of main 
 	
 // start of animal class 
