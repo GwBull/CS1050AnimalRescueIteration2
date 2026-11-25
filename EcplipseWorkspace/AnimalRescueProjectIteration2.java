@@ -70,14 +70,11 @@ public class AnimalRescueProjectIteration2
 			
 			/*
 			 * This constructor creates a new Animal object and sets its starting values.
-			 * It runs automatically whenever you write "new Animal(...)".
-			 *
 			 * Each parameter is equal to the  field of the object.
-			 * "this." means "this object's field", which is how Java tells the
-			 * this.Name = Name;   // toms Name becomes "tom"
-			 * 
+			 * "this." means "this specific instance assign this name to this specific animals"
+			 * this.Name = Name;   // Georges Name becomes "Georges"
 			 * Example:
-			 *   Animal tom = new Animal(George Lion, 200.0 lbs, 8.0 Food);
+			 *   Animal tom = new Animal("George", "Lion", 200.0, 8.0);
 			 * This makes an Animal named tom, a tiger that weighs 197.5
 			 * and eats 7.0 units of food per day.
 			 */
