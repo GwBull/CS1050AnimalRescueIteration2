@@ -263,7 +263,10 @@ class Animal
 
    	 	{
 
+        Animals[AnimalCount] = animal;
+		// this line acatully adds the animal to the array of animals in the rescue at the current animal count position
         AnimalCount++;
+		// updates the wocunt and array position for the next animal to be added
         System.out.println("Success! Animal added to the rescue");
         System.out.println("Updated animal count: " + AnimalCount);
     	}
