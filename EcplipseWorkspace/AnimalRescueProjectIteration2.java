@@ -288,9 +288,6 @@ public class AnimalRescueProjectIteration2
 		
 	}
 	// end of the rescue class 
-
-	//start the user story methods
-	//start the get weekly food amount method
 	
-}
+
 // end of the file 
