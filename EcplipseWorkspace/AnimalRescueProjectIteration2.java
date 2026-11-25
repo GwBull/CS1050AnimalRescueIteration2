@@ -39,6 +39,16 @@ public class AnimalRescueProjectIteration2
     allAnimals[1] = new Animal("Pip", "Bird", 0.8, 0.10);
     allAnimals[2] = new Animal("Rex", "Dog", 100.0, 3.00);
     allAnimals[3] = new Animal("Bella", "Cat", 8.0, 0.60);
+
+	rescue1.addAnimal(allAnimals[0]);
+	// adds luna to the array within the rescue object 
+	rescue1.addAnimal(allAnimals[1]);
+	// adds pip to the array within the rescue object
+	rescue1.addAnimal(allAnimals[2]);
+	// adds rex to the array within the rescue object
+	rescue1.addAnimal(allAnimals[3]);
+	//adds bela to the array wihtin the rescue object 
+	//theses are all fo testing purposes and will be replaced with the read file method later
     
 	// adds all these animals into the array
 
@@ -208,7 +218,7 @@ class Animal
 		 */
 		
 		public RescueCenter(String RescueName, int MaxAnimals)
-		
+
 		// we dont need to pass through the animal count because it will be set to 0 in the constructor
 		// we dont need to pass through the animal array because it will be created in the constructor with a length of MaxAnimals
 		// creates a constructor for the recuse need to have max animals to set the array length 
@@ -244,25 +254,26 @@ class Animal
 		}
 		// create get animals method to return the array of animals in the rescue
 
-		public void addAnimal( Animal animal)
-		// we only need to pass through the animal object and not the array of animlas
-		//becasue they are in the recuse class and we can access them through the class
-		// create add animals method pass thorugh the animal count and animals array
+		public void addAnimal(Animal animal)
+
 		{
-			if (AnimalCount < Animals.length)
-			// check if the current amount of animals is less than the length of the array meanign we have room
-			{
-				System.out.println("Animal added to the rescue");
 
-				this.AnimalCount++;
-				// updates the animal count for the rescue by using a postfix to update it by 1
-				System.out.println("Animal Count: " + this.AnimalCount);
-			}
-			else
-			{
-				System.out.println("Unable to add animal to the rescue, the rescue is full");
-			}
+    	if (AnimalCount < Animals.length)
 
+   	 	{
+
+        AnimalCount++;
+        System.out.println("Success! Animal added to the rescue");
+        System.out.println("Updated animal count: " + AnimalCount);
+    	}
+
+   		 else
+
+    	{
+
+        System.out.println("Error the rescue is full! YOU CANNOT ADD NEW ANIMALS");
+    	
+		}
 
 		}
 		// end of the add animal method, this verifys that theere is room within the array or shrelter
