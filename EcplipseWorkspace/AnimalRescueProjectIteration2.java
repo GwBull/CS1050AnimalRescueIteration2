@@ -210,7 +210,7 @@ public class AnimalRescueProjectIteration2
 
 		public void addAnimal()
 		{
-			if (this.AnimalCount < this.Animals.length)
+			if (AnimalCount < Animals.length)
 			{
 				System.out.println("Animal added to the rescue");
 			}
@@ -243,11 +243,26 @@ public class AnimalRescueProjectIteration2
 			// creates a variable to hold the total weekly food amount for all animals in the rescue
 			for (int i = 0; i < this.AnimalCount; i++)
 			{
-				totalWeeklyFood = totalWeeklyFood + Animals[i].calculateweeklyFood();
+				totalWeeklyFood = totalWeeklyFood + Animals[i].calculateWeeklyFood();
 			}
 			// use a for loop to iterate through the array of animals in the rescue and add the weekly food amount for each animal to the total weekly food amount
 			return totalWeeklyFood;
 			//return the total weekly food amount for all animals in the rescue
+		}
+
+		public double calculateAverageDailyFood()
+		{
+			double totalDailyFood = 0.0;
+			// creates a variable to hold the total daily food amount for all animals in the rescue
+			for (int i = 0; i < this.AnimalCount; i++)
+			{
+				totalDailyFood = totalDailyFood + Animals[i].getdailyFoodAmount();
+			}
+			// use a for loop to iterate through the array of animals in the rescue and add the daily food amount for each animal to the total daily food amount
+			double averageDailyFood = totalDailyFood / AnimalCount;
+			// calculate the average daily food amount for all animals in the rescue by dividing the total daily food amount by the current amount of animals in the rescue
+			return averageDailyFood;
+			//return the average daily food amount for all animals in the rescue
 		}
 
 		
