@@ -26,6 +26,7 @@ public class AnimalRescueProjectIteration2
 	// its called all animal stores animals data type with a lenght of 4 
 
     allAnimals[0] = new Animal("Luna", "Dog", 20.0, 1.50);
+	// stores luna in animal array position 0 with the name, species, weight and daily food amount
     allAnimals[1] = new Animal("Pip", "Bird", 0.8, 0.10);
     allAnimals[2] = new Animal("Rex", "Dog", 100.0, 3.00);
     allAnimals[3] = new Animal("Bella", "Cat", 8.0, 0.60);
