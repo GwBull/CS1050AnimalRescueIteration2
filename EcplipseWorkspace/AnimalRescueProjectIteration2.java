@@ -266,16 +266,16 @@ public class AnimalRescueProjectIteration2
 			//return the average daily food amount for all animals in the rescue
 		}
 
-		public void displayAnimalsAtOrAboveAverageDailyFood(AverageDailyFood)
+		public void displayAnimalsAtOrAboveAverageDailyFood(double averageDailyFood)
 		{
-			double averageDailyFood = calculateAverageDailyFood();
 			// get the average daily food amount for all animals in the rescue
 			for (int i = 0; i < AnimalCount; i++)
 			{
 				if (Animals[i].getdailyFoodAmount() >= averageDailyFood)
 				{
-					System.out.println(Animals[i].getName() + " - " + Animals[i].getdailyFoodAmount());
+					System.out.println(Animals[i].getName() + ": is at or above the daily food amount");
 				}
+				// uses a for loop and then goes to the postion in the array and then uses a .get name to get the name of the animal
 			}
 			// use a for loop to iterate through the array of animals in the rescue and display the name and daily food amount for each animal that is at or above the average daily food amount
 		}
