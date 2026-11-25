@@ -21,8 +21,9 @@ public class AnimalRescueProjectIteration2
 	public static void main(String[] args)
 	{
 
-	RescueCenter rescue1 = new RescueCenter("Second Chance Rescue", 3);
 	
+	RescueCenter rescue1 = new RescueCenter("Second Chance Rescue", 3);
+
 	// creates a new rescxsue cenetr object with a name and max animals as 3
 	// we dont need the animal count because it will be set to 0 in the constructor
 	// and we dont need the animal array because it will be created in the constructor with a length of 3
@@ -206,8 +207,12 @@ class Animal
 		 * the maximum number of animals that can be in the rescue
 		 */
 		
-		public RescueCenter(String RescueName, int AnimalCount, Animal[]Animals, int MaxAnimals)
-		// creates a constructor fo rthe recuse need to have max animals to set the array lenght 
+		public RescueCenter(String RescueName, int MaxAnimals)
+		
+		// we dont need to pass through the animal count because it will be set to 0 in the constructor
+		// we dont need to pass through the animal array because it will be created in the constructor with a length of MaxAnimals
+		// creates a constructor for the recuse need to have max animals to set the array length 
+
 		{
 		
 			this.RescueName = RescueName;
