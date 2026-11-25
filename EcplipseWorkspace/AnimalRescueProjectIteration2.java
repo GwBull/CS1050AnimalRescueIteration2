@@ -260,6 +260,7 @@ public class AnimalRescueProjectIteration2
 				totalDailyFood = totalDailyFood + Animals[i].getdailyFoodAmount();
 			}
 			// use a for loop to iterate through the array of animals in the rescue and add the daily food amount for each animal to the total daily food amount
+			// get daily food amoutn is a method in the animal class that retrun tehr daily food amount for each animal in the array
 			double averageDailyFood = totalDailyFood / AnimalCount;
 			// calculate the average daily food amount for all animals in the rescue by dividing the total daily food amount by the current amount of animals in the rescue
 			return averageDailyFood;
@@ -275,7 +276,7 @@ public class AnimalRescueProjectIteration2
 				{
 					System.out.println(Animals[i].getName() + ": is at or above the daily food amount");
 				}
-				// uses a for loop and then goes to the postion in the array and then uses a .get name to get the name of the animal
+				// uses a for loop and then goes to the postion in the array and then uses a .get name to get the name of the animals
 			}
 			// use a for loop to iterate through the array of animals in the rescue and display the name and daily food amount for each animal that is at or above the average daily food amount
 		}
