@@ -21,6 +21,10 @@ public class AnimalRescueProjectIteration2
 	public static void main(String[] args)
 	{
 
+	RescueCenter rescue1 = new RescueCenter("Second Chance Rescue", 3);
+
+	// creates a new rescue hardcoded to test. 
+
 	Animal[] allAnimals = new Animal[4];
     // create the animal array to store hard coded animals 
 	// its called all animal stores animals data type with a lenght of 4 
