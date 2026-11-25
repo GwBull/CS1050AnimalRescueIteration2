@@ -210,7 +210,7 @@ public class AnimalRescueProjectIteration2
 		// create get animals method to return the array of animals in the rescue
 
 		public void addAnimal(int AnimalCount, Animal[] Animals)
-		// creat eadd animal smethod pass thorugh the animal count and animals array
+		// create add animals method pass thorugh the animal count and animals array
 		{
 			if (AnimalCount < Animals.length)
 			{
