@@ -21,8 +21,9 @@ public class AnimalRescueProjectIteration2
 	public static void main(String[] args)
 	{
 
-		Animal[] allAnimals = new Animal[4];
-    // create the animal array to store hard coded animals (like allcars)
+	Animal[] allAnimals = new Animal[4];
+    // create the animal array to store hard coded animals 
+	// its called all animal stores animals data type with a lenght of 4 
 
     allAnimals[0] = new Animal("Luna", "Dog", 20.0, 1.50);
     allAnimals[1] = new Animal("Pip", "Bird", 0.8, 0.10);
@@ -31,10 +32,10 @@ public class AnimalRescueProjectIteration2
     
 	// adds all these animals into the array
 
-		// create and hardcode 4 animlas to test the class and the program
+	// create and hardcode 4 animlas to test the class and the program
 
-		displayProgramInformation();
-		// call the display prgram method to display the program information
+	displayProgramInformation();
+	// call the display prgram method to display the program information
 
 	}
 	
