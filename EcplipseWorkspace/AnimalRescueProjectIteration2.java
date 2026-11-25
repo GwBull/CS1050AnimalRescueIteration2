@@ -33,7 +33,7 @@ public class AnimalRescueProjectIteration2
 		System.out.println("Aniumal Rescue Center Analysis - Iteration 02");
 		System.out.println("**********************************************");
 		System.out.println("Reads Animal information from a file");
-		System.out.println("Calculates average dailyand total weekly food");
+		System.out.println("Calculates average daily and total weekly food");
 		System.out.println("writes rescue infromation and anylsis to a file");
 		
 	}
@@ -162,7 +162,7 @@ public class AnimalRescueProjectIteration2
 	
 		private String RescueName;
 		// create the attribute oof a rescue which is the name of the rescue
-		private double AnimalCount;
+		private int AnimalCount;
 		// create the attribute of a rescue which is the current amount of animals in the rescue
 		private Animal[] Animals;
 		// create the attribute of a rescue which is an array of animals in the rescue
@@ -174,7 +174,7 @@ public class AnimalRescueProjectIteration2
 		 * an array that hold animals using the animal data type and the length of the array is based on the current animals 
 		 */
 		
-		public Rescue(String RescueName, double AnimalCount, Animal[]Animals)
+		public Rescue(String RescueName, int AnimalCount, Animal[]Animals)
 		
 		{
 		
