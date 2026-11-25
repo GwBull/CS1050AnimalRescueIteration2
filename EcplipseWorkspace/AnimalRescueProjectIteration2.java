@@ -29,13 +29,10 @@ public class AnimalRescueProjectIteration2
 		// create an dhardcode 4 animlas to test the class and the program
 
 		displayProgramInformation();
+		// call the display prgram method to display the program information
 
 	}
-
-
-
-
-
+	
 
 	public static void displayProgramInformation()
 		{
@@ -47,13 +44,21 @@ public class AnimalRescueProjectIteration2
 		System.out.println("writes rescue infromation and anylsis to a file");
 		
 	}
-	// end fo the display program ionfrokmation method 
+	// end of the display program information method 
+
+// START THE READ FILE METHOD WILL BE IMPLMENTED LATER 
+
+// START THE WRITE FILE METHOD WILL BE IMPLMENTED LATER
 
 }
-	// end of main 
+
+// end of main 
 	
+
 // start of animal class 
-	class Animal
+
+class Animal
+
 // create the animal class which make an animal data type 
 	{
 	
@@ -197,8 +202,6 @@ public class AnimalRescueProjectIteration2
 			this.Animals = new Animal[MaxAnimals];
 			// creates an array that stores animals wiht the lenght set to the animal amount
 
-			
-			
 		}
 		//end of the constructor for the rescue class
 		//this will create a new rescue object and set the starting values for the rescue name, animal count and the array of animals in the rescue
