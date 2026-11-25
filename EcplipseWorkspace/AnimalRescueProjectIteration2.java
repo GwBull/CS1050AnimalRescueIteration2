@@ -56,15 +56,15 @@ public class AnimalRescueProjectIteration2
 		
 		//create all the attributes of a an animal, they have a name a species a weight and a daily food amount
 		
-		public  Animal(String Name, String Species, double Weight, Double dailyFoodAmount)
+		public  Animal(String name, String species, double weight, Double dailyFoodAmount)
 		
 		{
 		
-			this.Name = Name;
+			this.Name = name;
 			
-			this.Species = Species;
+			this.Species = species;
 			
-			this.Weight = Weight;
+			this.Weight = weight;
 			
 			this.dailyFoodAmount = dailyFoodAmount;
 			
