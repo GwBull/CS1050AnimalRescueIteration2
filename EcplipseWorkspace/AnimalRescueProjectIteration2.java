@@ -28,7 +28,17 @@ public class AnimalRescueProjectIteration2
 
 		// create an dhardcode 4 animlas to test the class and the program
 
+		displayProgramInformation();
 
+	}
+
+
+
+
+
+
+	public static void displayProgramInformation()
+		{
 		System.out.println("**********************************************");
 		System.out.println("Aniumal Rescue Center Analysis - Iteration 02");
 		System.out.println("**********************************************");
@@ -37,6 +47,7 @@ public class AnimalRescueProjectIteration2
 		System.out.println("writes rescue infromation and anylsis to a file");
 		
 	}
+	// end fo the display program ionfrokmation method 
 
 }
 	// end of main 
@@ -172,17 +183,18 @@ public class AnimalRescueProjectIteration2
 		 * the attributes of this class are the name of the rescue 
 		 * the current amount of animals that will be used for the size of the array 
 		 * an array that hold animals using the animal data type and the length of the array is based on the current animals 
+		 * the maximum number of animals that can be in the rescue
 		 */
 		
-		public RescueCenter(String RescueName, int AnimalCount, Animal[]Animals)
-		
+		public RescueCenter(String RescueName, int AnimalCount, Animal[]Animals, int MaxAnimals)
+		// creates a constructor fo rthe recuse need to have max animals to set the array lenght 
 		{
 		
 			this.RescueName = RescueName;
 			
 			this.AnimalCount = 0;
 			// starts the animal count at 0 because there are no animals in the rescue yet
-			this.Animals = new Animal[(int) AnimalCount];
+			this.Animals = new Animal[MaxAnimals];
 			// creates an array that stores animals wiht the lenght set to the animal amount
 
 			
@@ -196,14 +208,14 @@ public class AnimalRescueProjectIteration2
 			return this.RescueName;
 		}
 		// create get rescue name method to return the name of the rescue
-		
+
 		public double getAnimalCount(){
 			
 			return this.AnimalCount;
 		}
 		// create get animal count method to return the current amount of animals in the rescue
 
-		public Animal[] getAnimals(){
+		public Animal[] getAnimals(){s
 			
 			return this.Animals;
 		}
