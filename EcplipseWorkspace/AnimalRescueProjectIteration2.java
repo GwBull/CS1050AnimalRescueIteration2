@@ -21,12 +21,17 @@ public class AnimalRescueProjectIteration2
 	public static void main(String[] args)
 	{
 
-		Animal luna  = new Animal("Luna", "Dog", 20.0, 1.50);
-		Animal pip   = new Animal("Pip", "Bird", 0.8, 0.10);
-		Animal rex   = new Animal("Rex", "Dog", 100.0, 3.00);
-		Animal bella = new Animal("Bella", "Cat", 8.0, 0.60);
+		Animal[] allAnimals = new Animal[4];
+    // create the animal array to store hard coded animals (like allcars)
 
-		// create an dhardcode 4 animlas to test the class and the program
+    allAnimals[0] = new Animal("Luna", "Dog", 20.0, 1.50);
+    allAnimals[1] = new Animal("Pip", "Bird", 0.8, 0.10);
+    allAnimals[2] = new Animal("Rex", "Dog", 100.0, 3.00);
+    allAnimals[3] = new Animal("Bella", "Cat", 8.0, 0.60);
+    
+	// adds all these animals into the array
+
+		// create and hardcode 4 animlas to test the class and the program
 
 		displayProgramInformation();
 		// call the display prgram method to display the program information
@@ -224,7 +229,7 @@ class Animal
 		}
 		// create get animals method to return the array of animals in the rescue
 
-		public void addAnimal(int AnimalCount, Animal[] Animals)
+		public void addAnimal(int AnimalCount, Animal[] Animals, Animal animal)
 		// create add animals method pass thorugh the animal count and animals array
 		{
 			if (AnimalCount < Animals.length)
@@ -232,10 +237,9 @@ class Animal
 			{
 				System.out.println("Animal added to the rescue");
 
-				System.out.println("Animal Count: " + this.AnimalCount);
-				
 				this.AnimalCount++;
 				// updates the animal count for the rescue by using a postfix to update it by 1
+				System.out.println("Animal Count: " + this.AnimalCount);
 			}
 			else
 			{
