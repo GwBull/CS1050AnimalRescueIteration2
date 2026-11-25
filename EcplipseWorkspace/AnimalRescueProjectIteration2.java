@@ -156,7 +156,7 @@ public class AnimalRescueProjectIteration2
 	// end of the animal class 
 	
 	//start of the rescue class
-	class Rescue 
+	class RescueCenter
 	
 	{
 	
@@ -174,7 +174,7 @@ public class AnimalRescueProjectIteration2
 		 * an array that hold animals using the animal data type and the length of the array is based on the current animals 
 		 */
 		
-		public Rescue(String RescueName, int AnimalCount, Animal[]Animals)
+		public RescueCenter(String RescueName, int AnimalCount, Animal[]Animals)
 		
 		{
 		
