@@ -226,6 +226,11 @@ class Animal
 
 		// we dont need to pass through the animal count because it will be set to 0 in the constructor
 		// we dont need to pass through the animal array because it will be created in the constructor with a length of MaxAnimals
+		// this happens when they are constructed and the rescue object is created
+		// these both dont need to be passed through because they are set in the constructor and will be updated when animals are added to the rescue
+		// these are set to animal ocount to zero 
+		//and the animal array is created with a length of max animals
+		//when we mak ea new rescure 
 		// creates a constructor for the recuse need to have max animals to set the array length 
 
 		{
