@@ -135,7 +135,7 @@ class Animal
 		}
 		// end of the get Weight method 
 		
-		public String getSepcies(){
+		public String getSpecies(){
 			
 			return this.Species;
 		}
