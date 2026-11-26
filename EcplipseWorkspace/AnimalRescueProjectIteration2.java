@@ -320,7 +320,7 @@ class Animal
 			// creates a variable to hold the total daily food amount for all animals in the rescue
 			for (int i = 0; i < AnimalCount; i++)
 			{
-				totalDailyFood = totalDailyFood + Animals[i].getdailyFoodAmount();
+				totalDailyFood = totalDailyFood + Animals[i].getDailyFoodAmount();
 			}
 			// use a for loop to iterate through the array of animals in the rescue and add the daily food amount for each animal to the total daily food amount
 			// get daily food amoutn is a method in the animal class that retrun tehr daily food amount for each animal in the array
@@ -335,9 +335,9 @@ class Animal
 			// get the average daily food amount for all animals in the rescue
 			for (int i = 0; i < AnimalCount; i++)
 			{
-				if (Animals[i].getdailyFoodAmount() >= averageDailyFood)
+				if (Animals[i].getDailyFoodAmount() >= averageDailyFood)
 				{
-					System.out.println(Animals[i].getName() + ": is at or above the daily food amount");
+					System.out.println(Animals[i].getName() + " " + Animals[i].getDailyFoodAmount() + ": is at or above the daily food amount");
 				}
 				// uses a for loop and then goes to the postion in the array and then uses a .get name to get the name of the animals
 			}
