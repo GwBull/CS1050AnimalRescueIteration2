@@ -169,7 +169,7 @@ class Animal
 			{
 				weightcategory = "Medium";
 			}
-			else if (this.Weight >= 50)
+			else if (this.Weight >= 50 && this.Weight < 100)
 			{
 				weightcategory = "Large";
 			}
@@ -268,7 +268,8 @@ class Animal
    	 	{
 
         Animals[AnimalCount] = animal;
-		// this line acatully adds the animal to the array of animals in the rescue at the current animal count position
+		// this line actually adds the animal to the array of animals in the rescue at the current animal count position
+		// so when we call .addanimals it makes sure we have room then adds it to the array in the rescue object that we have one of  
         AnimalCount++;
 		// updates the wocunt and array position for the next animal to be added
         System.out.println("Success! Animal added to the rescue");
@@ -280,6 +281,7 @@ class Animal
     	{
 
         System.out.println("Error the rescue is full! YOU CANNOT ADD NEW ANIMALS");
+		System.out.println("this animal will not be added to the rescue");
     	
 		}
 
