@@ -141,7 +141,7 @@ class Animal
 		}
 		// end of the get Species method 
 		
-		public double getdailyFoodAmount(){
+		public double getDailyFoodAmount(){
 			
 			return this.dailyFoodAmount;
 		}
@@ -290,7 +290,7 @@ class Animal
 		 * displays the recues infromation 
 		 **/
 
-		public void displayRescueAnylasis()
+		public void displayRescueAnalysis()
 		{
 			System.out.println("Rescue Name: " + this.RescueName);
 			// displays the name of the rescue
