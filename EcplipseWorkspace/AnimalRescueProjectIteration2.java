@@ -169,9 +169,13 @@ class Animal
 			{
 				weightcategory = "Medium";
 			}
-			else
+			else if (this.Weight >= 50)
 			{
 				weightcategory = "Large";
+			}
+			else 
+			{
+				weightcategory = "Extra Large";
 			}
 
 			return weightcategory;
