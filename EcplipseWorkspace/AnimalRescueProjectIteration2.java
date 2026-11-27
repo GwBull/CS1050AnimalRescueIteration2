@@ -42,6 +42,8 @@ public class AnimalRescueProjectIteration2
 
 	rescue1.addAnimal(allAnimals[0]);
 	// adds luna to the array within the rescue object 
+	//  using the add animal method it check we have rooom then adds it to the array in the rescue
+	// that is hardcoded above
 	rescue1.addAnimal(allAnimals[1]);
 	// adds pip to the array within the rescue object
 	rescue1.addAnimal(allAnimals[2]);
