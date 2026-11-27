@@ -294,7 +294,10 @@ class Animal
 		}
 
 		}
-		// end of the add animal method, this verifys that theere is room within the array or shrelter
+		// we dont return anything becasue the add animal method is in the rescue class
+		// and it will update the animal count and the array of animals in the rescue
+		// without returning anything because it is a void method
+		// end of the add animal method, this verifys that theere is room within the array or shelter
 
 		/** 
 		 * displays the recues infromation 
@@ -304,8 +307,18 @@ class Animal
 		{
 			System.out.println("Rescue Name: " + this.RescueName);
 			// displays the name of the rescue
-			System.out.println("Animal Count: " + this.AnimalCount);
+			System.out.println("total number of animals: " + this.AnimalCount);
 			// displays the current amount of animals in the rescue
+			System.out.println("Average Daily Food Amount: " + this.calculateAverageDailyFood());
+			// displays the average daily food amount for all animals in the rescue
+			//usingthe calculate average daily food method to get the average food amount
+			// we us .this be we call the food method wihtin the class
+			// and .this means this specific instance of the class and we are calling the method within the class
+			System.out.println("Animals at or above average daily food amount:");
+			// displays the animals at or above average daily food amount
+			this.displayAnimalsAtOrAboveAverageDailyFood(this.calculateAverageDailyFood());
+			// lists th animals at or above the average daily food amount 
+			// to get this we need the cal avg food method to be passed through to figure out the average to then comapre the average  
 			
 		}
 		//end of the daily rescue method 
