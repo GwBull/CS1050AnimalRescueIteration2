@@ -271,7 +271,13 @@ class Animal
     	if (AnimalCount < Animals.length)
 
    	 	{
-		// updates the wocunt and array position for the next animal to be added
+		
+		Animals [AnimalCount] = animal;
+		// adds the animal to the array at the current animal count position
+		// learned in M05 L12
+		// this is how we add an animal to the array at the current animal count position
+		// so for example if we do .addanimal(luna) and the animal count is 0 then it will add luna to the array at position 0
+		//  it will check first if there is spacee then add them 
 		AnimalCount++;
 		// add one to the animal count because we are adding an animal to the rescue
         System.out.println("Success! Animal added to the rescue");
