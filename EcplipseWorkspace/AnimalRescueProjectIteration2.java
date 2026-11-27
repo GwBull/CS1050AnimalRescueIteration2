@@ -271,12 +271,9 @@ class Animal
     	if (AnimalCount < Animals.length)
 
    	 	{
-
-        Animals[AnimalCount] = animal;
-		// this line actually adds the animal to the array of animals in the rescue at the current animal count position
-		// so when we call .addanimals it makes sure we have room then adds it to the array in the rescue object that we have one of  
-        AnimalCount++;
 		// updates the wocunt and array position for the next animal to be added
+		AnimalCount++;
+		// add one to the animal count because we are adding an animal to the rescue
         System.out.println("Success! Animal added to the rescue");
         System.out.println("Updated animal count: " + AnimalCount);
     	}
